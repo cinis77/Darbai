@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Skaiciuotuvas__begalinis
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Begalinis skaiciuotuvas");
+            Console.WriteLine("Iveskite skaiciu");
+            double sk1 = Convert.ToDouble(Console.ReadLine());
+            char zenklas = ' ';
+            while (zenklas != '=')
+            {
+                Console.WriteLine("Iveskite + - * / =");
+                zenklas = Convert.ToChar(Console.ReadLine());
+                double sk2 = 0;
+                if (zenklas != '=')
+                {
+                    Console.WriteLine("Iveskite skaciu");
+                    sk2 = Convert.ToDouble(Console.ReadLine());
+                }
+                switch (zenklas)
+                {
+                    case '+':
+                        sk1 = sk1 + sk2;
+                        break;
+                    case '-':
+                        sk1 = sk1 - sk2;
+                        break;
+                    case '*':
+                        sk1 = sk1 * sk2;
+                        break;
+                    case '/':
+                        if (sk2 != 0)
+                        {
+                            sk1 = sk1 / sk2;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Dalyba is 0 negalima");
+                        }
+                        break;
+                    case '=':
+                        break;
+                    default:
+                        Console.WriteLine("Neatpazintas zenklas");
+                        break;
+                }
+
+            }
+            Console.WriteLine("Atsakymas " + sk1);
+            Console.ReadKey();
+        }
+    }
+}
