@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Prisiminti
+{
+    class Program
+    {
+        public int suma = 0;
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite skaiciu pagal kuri bus atliekamas sumavimas");
+            int sk = Convert.ToInt32(Console.ReadLine());
+            char patikrinti = ' ';
+            Program p = new Program();
+            do
+            {
+                Console.WriteLine("Ar atlikti patikrinima, jei taip veskite y kitu atveju veskite q");
+                patikrinti = Convert.ToChar(Console.ReadKey().KeyChar);
+                Console.WriteLine();
+                p.sumuoti(sk);
+            } while (patikrinti == 'y');
+            Console.WriteLine("Suma = " + p.suma);
+            Console.ReadKey();
+        }
+
+        public void sumuoti (int n)
+        {
+            suma = suma + n;
+        }
+    }
+}
