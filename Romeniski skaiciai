@@ -1,0 +1,155 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace romeniski
+{
+    class Program
+    {
+
+        /// <summary>
+        /// Funkcija kuri užduoda klausimą
+        /// </summary>
+        /// <param name="klausimas"></param>
+        public void Paklausimas (string klausimas)
+        {
+            Console.WriteLine(klausimas);
+        }
+
+        /// <summary>
+        /// Randa romėnišką skaičių nuo 0 iki 9
+        /// </summary>
+        /// <param name="skaicius"></param>
+        /// <param name="atsakymas"></param>
+        public void Vienzeklis (int skaicius, string dvizenklis, string trizenklis, out string atsakymas)
+        {
+            atsakymas = null;
+            if (skaicius == 0 && dvizenklis == null && trizenklis == null)
+            {
+                atsakymas = "0";
+            }
+            else if (skaicius == 9)
+            {
+                atsakymas = "IX";
+            }
+            else if(skaicius == 4)
+            {
+                atsakymas = "IV";
+            }
+            else
+            {
+                int k = skaicius / 5;
+                int l = skaicius % 5;
+                if(k == 1)
+                {
+                    atsakymas = "V";
+                }
+
+                while(l > 0)
+                {
+                    atsakymas += "I";
+                    l--;
+                }
+                
+            }
+              
+        }
+
+        /// <summary>
+        /// Funkcija kuri gražina dviženklį skaičių
+        /// </summary>
+        /// <param name="skaicius"></param>
+        /// <param name="atsakymas"></param>
+        public void Dvizenkliai (int skaicius, out string atsakymas)
+        {
+            atsakymas = null;
+            if(skaicius == 0)
+            {
+                ;
+            }
+            else if (skaicius == 4)
+            {
+                atsakymas = "XL";
+            }
+            else if(skaicius == 9)
+            {
+                atsakymas = "XC";
+            }
+            else
+            {
+                int k = skaicius / 5;
+                int l = skaicius % 5;
+                if (k == 1)
+                {
+                    atsakymas = "L";
+                }
+
+                while (l > 0)
+                {
+                    atsakymas += "X";
+                    l--;
+                }
+            }
+
+        }
+
+
+
+        public void Trizenkliai (int skaicius, out string atsakymas)
+        {
+            atsakymas = null;
+            if (skaicius == 0)
+            {
+                ;
+            }
+            else if (skaicius == 4)
+            {
+                atsakymas = "CD";
+            }
+            else if (skaicius == 9)
+            {
+                atsakymas = "CM";
+            }
+            else
+            {
+                int k = skaicius / 5;
+                int l = skaicius % 5;
+                if (k == 1)
+                {
+                    atsakymas = "D";
+                }
+
+                while (l > 0)
+                {
+                    atsakymas += "C";
+                    l--;
+                }
+            }
+        }
+
+
+        static void Main(string[] args)
+        {
+            Program romenas = new Program();
+            romenas.Paklausimas("Iveskite skaičių");
+            int sk = Convert.ToInt32(Console.ReadLine());
+            int sk1 = sk % 10;
+            int sk2 = (sk % 100) / 10;
+            int sk3 = sk / 100;
+            string trizenklis = null;
+            romenas.Trizenkliai(sk3, out trizenklis);
+
+
+            string dvizenklis = null;
+            romenas.Dvizenkliai(sk2, out dvizenklis);
+
+
+            string vienzenklis = null;
+            romenas.Vienzeklis(sk1, dvizenklis, trizenklis, out vienzenklis);
+            romenas.Paklausimas(trizenklis + dvizenklis + vienzenklis);
+            Console.ReadKey();
+        }
+    }
+}
