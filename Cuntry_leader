@@ -1,0 +1,84 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Valstybes_vadovas
+{
+    class Program
+    {
+        public int Unikaliu_raidziu_kiekis (char[] elementai)
+        {
+            int kiekis_unikaliu = 0;
+            for(int i = 0; i < elementai.Length; i++)
+            {
+                int neunikalus = 0;
+                for (int j = i + 1; j < elementai.Length; j++)
+                {
+                    if(elementai[i]==elementai[j])
+                    {
+                        neunikalus++;
+                        break;
+                    }
+                }
+                if(neunikalus == 0)
+                {
+                    kiekis_unikaliu++;
+                }
+
+            }
+            return kiekis_unikaliu;
+        }
+
+
+        static void Main(string[] args)
+        {
+            /* Console.WriteLine("Iveskite kandidatu skaiciu");
+             int T = Convert.ToInt32(Console.ReadLine());
+             string[] Vardai = new string[T];
+             for(int i = 0; i < Vardai.Length; i++)
+             {
+                 Console.WriteLine("Iveskite kandidato varda");
+                 Vardai[i] = Console.ReadLine();
+             }*/
+            try
+            {
+                using (System.IO.StreamReader sr = new System.IO.StreamReader("C:/Users/drentelis/Documents/Visual Studio 2015/Projects/Valstybes_vadovas/Valstybes_vadovas/bin/Debug/Data.txt"))
+                {
+                    Console.WriteLine("Iveskite visus kandidatus");
+                    string Kandidatai = sr.ReadLine();
+                    Console.WriteLine(Kandidatai);
+                    string[] Vardai = Kandidatai.Split(' ').ToArray();
+                    int Max_Value = int.MinValue;
+                    int Max_Value_index = -1;
+
+                    for (int i = 0; i < Vardai.Length; i++)
+                    {
+                        char[] Raides = Vardai[i].ToCharArray();
+                        Program unikumas = new Program();
+                        int kiekis_unikalius_elementu = unikumas.Unikaliu_raidziu_kiekis(Raides);
+                        if (Max_Value < kiekis_unikalius_elementu)
+                        {
+                            Max_Value = kiekis_unikalius_elementu;
+                            Max_Value_index = i;
+                        }
+                    }
+                    
+
+                    Console.WriteLine("Prezidentas bus: " + Vardai[Max_Value_index]);
+                }
+            }
+            catch(Exception ex)
+            {
+                
+            }
+            Console.ReadKey();
+
+
+
+
+
+        }
+    }
+}
