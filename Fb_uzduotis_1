@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Skaiciuojam1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite mokiniu klaseje kieki");
+            int mokiniai = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Iveskite kiek lapu sudaro konspekta");
+            int kospektas = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Reikes lapu : " + (mokiniai * kospektas));
+            Console.ReadKey();
+
+        }
+    }
+}
