@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace kamuoliukai_if
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sk1 = 1;
+            int sk2 = 1;
+            int sk3 = 1;
+            int sk4 = 0;
+            int sk5 = 1;
+            int sk6 = 1;
+            int sk7 = 1;
+            int sk8 = 1;
+
+            int sum1 = sk1 + sk2 + sk3;
+            int sum2 = sk4 + sk5 + sk6;
+
+            if(sum1 > sum2)
+            {
+                if(sk4>sk5)
+                {
+                    Console.WriteLine("Kamuoliukas 5 yra borkuotas");
+                }
+                else if (sk4<sk5)
+                {
+                    Console.WriteLine("Kamuoliukas 4 yra borkuotas");
+                }
+                else
+                {
+                    Console.WriteLine("Kamuoliukas 6 yra borkuotas");
+                }
+            }
+            else if (sum1 <sum2)
+            {
+                if (sk1 > sk2)
+                {
+                    Console.WriteLine("Kamuoliukas 2 yra borkuotas");
+                }
+                else if (sk1 < sk2)
+                {
+                    Console.WriteLine("Kamuoliukas 1 yra borkuotas");
+                }
+                else
+                {
+                    Console.WriteLine("Kamuoliukas 3 yra borkuotas");
+                }
+            }
+            else
+            {
+                if(sk7 > sk8)
+                {
+                    Console.WriteLine("Kamuoliukas 8 yra borkuotas");
+                }
+                else
+                {
+                    Console.WriteLine("Kamuoliukas 7 yra borkuotas");
+                }
+            }
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
