@@ -1,0 +1,107 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Threading.Tasks;
+
+namespace Ticketsort
+{
+    class Program
+    {
+        class Tiket
+        {
+            public string arraival { get; set; }
+            public string departure { get; set; }
+        }
+
+
+
+        static void Main(string[] args)
+        {
+            StreamReader reader = new StreamReader("C-large-practice.in");
+            StreamWriter writer = new StreamWriter("output.txt");
+            int T = Convert.ToInt32(reader.ReadLine());
+           
+            for(int i = 0; i < T; i++)
+            {
+                List<Tiket> bilietai = new List<Tiket>();
+                first = -1;
+                int N = Convert.ToInt32(reader.ReadLine());
+                for(int j = 0; j < N; j++)
+                {
+                    Tiket temp = new Tiket();
+                    temp.arraival = reader.ReadLine();
+                    temp.departure = reader.ReadLine();
+                    bilietai.Add(temp);
+                }
+
+                Tiket[] darbinis = bilietai.ToArray();
+                PirmoPaieska(darbinis);
+                Tiket[] ats = new Tiket[darbinis.Count()];
+                ats[0] = darbinis[first];
+                int indeksas = 0;
+                foreach(Tiket itemas in ats)
+                {
+                    indeksas++;
+                    if (indeksas >= ats.Count())
+                    {
+                        break;
+                    }
+                    ats[indeksas] = darbinis[iesko_kito(itemas, darbinis)];
+                  
+                }
+
+                writer.Write("Case #{0}:", (i + 1));
+                foreach(Tiket itemas in ats)
+                {
+                    writer.Write(" " + itemas.arraival + "-" + itemas.departure);
+                    writer.Flush();
+                }
+                writer.WriteLine();
+
+
+
+            }
+            
+
+        }
+
+        static int iesko_kito(Tiket dabar, Tiket[] temp)
+        {
+            for (int i = 0; i < temp.Count(); i++)
+            {
+              if(dabar.departure == temp[i].arraival)
+                {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
+
+        static int first = -1;
+        static void PirmoPaieska(Tiket[] temp)
+        {
+            for(int i = 0; i < temp.Count();i++)
+            {
+                int flag = 0;
+                for(int j = 0; j < temp.Count();j++)
+                {
+                    if (temp[i]!=temp[j])
+                    {
+                        if (temp[i].arraival == temp[j].departure)
+                        {
+                            flag++;
+                        }
+                    }
+                }
+                if(flag == 0)
+                {
+                    first = i;
+                    return;
+                }
+            }
+        }
+    }
+}
