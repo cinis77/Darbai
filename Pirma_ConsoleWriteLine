@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string vardas = "Dominykas";
+            string pavardė= "Rentelis";
+            int amzius = 25;
+            double ugis = 2.3f;
+            double svoris = 108;
+            string aukstoji_mokykla = "Kauno Technologijų universitetas";
+            string akademinesGrupesKodas = "RB 1/4";
+            int kodas = 2;
+            string studiju_programos_pavadinimas = "Robotika";
+            int atsiskaityta_kreditu = 240;
+
+            Console.WriteLine("ToDo Listas:");
+            Console.WriteLine("1. Išvesti šunį");
+            Console.WriteLine("2. Nupirkti pieno");
+            Console.WriteLine("3. Išnešti šiūkšles");
+
+            Console.WriteLine("STUDENTO DUOMENYS");
+            Console.WriteLine(vardas + " " + pavardė +"( {0} m.)", amzius);
+            Console.WriteLine("Jo ūgis yra {0:0.00}m, svoris {1}kg", ugis, svoris);
+            Console.WriteLine("Jis mokosi aukstojoje mokykloje: " + aukstoji_mokykla +" ({0})", studiju_programos_pavadinimas);
+            Console.WriteLine("Akademine grupe kuriai priklauso" + akademinesGrupesKodas);
+            Console.WriteLine("jau yra baigės 4 kursus");
+            Console.WriteLine("Atsiskaite kreditu " + atsiskaityta_kreditu);
+
+
+
+
+
+
+        }
+    }
+}
