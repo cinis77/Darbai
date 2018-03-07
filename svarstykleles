@@ -1,0 +1,66 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace svastykles
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sk1 = 2;
+            int sk2 = 2;
+            int sk3 = 2;
+            int sk4 = 1;
+            int sk5 = 2;
+            int sk6 = 2;
+            int sk7 = 2;
+            int sk8 = 2;
+            if (sk1 + sk2 + sk3 < sk4 + sk5 + sk6)
+            {
+                if (sk1 < sk2)
+                {
+                    Console.WriteLine("Brokuotas 1");
+                }
+                else if (sk1 > sk2)
+                {
+                    Console.WriteLine("Brokuotas 2");
+                }
+                else
+                {
+                    Console.WriteLine("Brokuotas 3");
+                }
+            }
+            else if (sk1 + sk2 + sk3 > sk4 + sk5 + sk6)
+            {
+                if (sk4 < sk5)
+                {
+                    Console.WriteLine("Brokuotas 4");
+                }
+                else if (sk4 > sk5)
+                {
+                    Console.WriteLine("Brokuotas 5");
+                }
+                else
+                {
+                    Console.WriteLine("Brokuotas 6");
+                }
+            }
+            else
+            {
+                if (sk7 < sk8)
+                {
+                    Console.WriteLine("Brokuotas 7");
+                }
+                else
+                {
+                    Console.WriteLine("Brokuotas 8");
+                }
+            }
+
+        }
+    }
+}
+
