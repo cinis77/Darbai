@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _02_05_2018_romeniski
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite skaiciu");
+            int sk = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(Vienzenkliai((sk / 100), "CM", "CD", "C", "D")
+                + Vienzenkliai(((sk % 100) / 10), "XC", "XL", "X", "L") 
+                + Vienzenkliai((sk % 10), "IX", "IV", "I", "V"));
+
+        }
+
+        public static string Vienzenkliai(int sk, string devyni, string keturi, string vienas, string penki)
+        {
+            if(sk == 4)
+            {
+                return keturi;
+            }
+            else if(sk == 9)
+            {
+                return devyni;
+            }
+            else
+            {
+                string temp = "";
+                if ((sk / 5) == 1)
+                {
+                    temp = penki;
+                }
+                for (int i = 0; i < (sk%5); i++)
+                {
+                    temp += vienas;
+                }
+                return temp;
+            }
+        }
+    }
+}
