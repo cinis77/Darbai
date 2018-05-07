@@ -1,0 +1,57 @@
+using System;
+using System.IO;
+using System.Windows.Forms;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _07_05_2018_Eurovision
+{
+    class Program
+    {
+        [STAThread]
+        static void Main(string[] args)
+        {
+            string path = null;
+            var ofd = new OpenFileDialog();
+            if(ofd.ShowDialog() == DialogResult.OK)
+            {
+                path = ofd.FileName;
+                string temp = "Lithuania.txt";
+                char[] triminimas = temp.ToCharArray();
+                path = path.TrimEnd(triminimas);
+            }
+            List<List<int>> sarasai = new List<List<int>>();
+            foreach (var file in Directory.EnumerateFiles(path))
+            {
+                StreamReader reader = new StreamReader(file);
+                List<int> duomenis = new List<int>();
+                string readAll = reader.ReadToEnd();
+                reader.Close();
+                string[] duomenys_atskirai = readAll.Split(' ');
+                foreach (var element in duomenys_atskirai)
+                {
+                    int t = Convert.ToInt32(element);
+                    duomenis.Add(t);
+                }
+                sarasai.Add(duomenis);
+                
+                
+            }
+            double maxAverage = double.MinValue;
+            foreach (var item in sarasai)
+            {
+
+                Console.WriteLine("Balu suma " + item.Sum());
+                Console.WriteLine("Minimalus balas "+ item.Min());
+                Console.WriteLine("Maximalus balas "+ item.Max());
+                if(item.Average() > maxAverage)
+                {
+                    maxAverage = item.Average();
+                }
+            }
+            Console.WriteLine("Didziausias vidurkis yra "+ maxAverage);
+        }
+    }
+}
