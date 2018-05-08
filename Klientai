@@ -1,0 +1,83 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _08_05_2018_klientai
+{
+    class Client
+    {
+        public string vardas;
+        public string pavarde;
+        public int ID;
+        public double saskaita;
+
+        public virtual void KiekMoketis()
+        {
+            saskaita = ID * 10;
+        }
+
+        public Client(string vardas, string pavarde, int ID)
+        {
+            this.vardas = vardas;
+            this.pavarde = pavarde;
+            this.ID = ID;
+        }
+    }
+
+
+    class VIP: Client
+    {
+        public override void KiekMoketis()
+        {
+            base.KiekMoketis();
+            saskaita *= 0.7;
+        }
+
+        public VIP(string vardas, string pavarde, int ID):base(vardas, pavarde, ID)
+        {
+
+        }
+    }
+
+    class Silver : Client
+    {
+        public override void KiekMoketis()
+        {
+            base.KiekMoketis();
+            saskaita *= 0.9;
+        }
+
+        public Silver(string vardas, string pavarde, int ID):base(vardas, pavarde, ID)
+        {
+
+        }
+    }
+
+    class Simpler: Client
+    {
+        public Simpler(string vardas, string pavarde, int ID):base(vardas, pavarde, ID)
+        {
+
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            VIP vipinis = new VIP("Jonas", "Jonaitis", 1);
+            Silver silveris = new Silver("Petras", "Petraitis", 2);
+            Simpler simplas = new Simpler("Sigitas", "Sigitaitis", 3);
+            List<Client> klientai = new List<Client>() { vipinis, silveris, simplas };
+            foreach (var item in klientai)
+            {
+                item.KiekMoketis();
+                Console.WriteLine("Moketi reikia " + item.saskaita);
+            }
+            
+
+        }
+    }
+}
