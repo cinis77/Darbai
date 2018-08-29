@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _29082018_antra_uzduotis
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite skersmeni");
+            int d = Convert.ToInt32(Console.ReadLine()); // Skersmuo
+            double r = (double)d / 2; //Spindulys
+            double S = Math.PI * Math.Pow(r, 2); //Plotas
+            //Math.Sqrt => saknies traukimas
+            //Math.Pow(n, 1/laipsnio) => betkokia saknis
+            double l = Math.PI * r * 2; //Lankas
+            Console.WriteLine("Plotas yra: {0:0.00}, lankas yra: {1:0.0}", S, l);
+        }
+    }
+}
