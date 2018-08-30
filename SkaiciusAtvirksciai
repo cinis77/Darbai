@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _30082018_keturzenklis
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite skaiciu");
+            int n = Convert.ToInt32(Console.ReadLine());
+            if(n < 10)
+            {
+                Console.WriteLine(n);
+            }
+            else if(n < 100)
+            {
+                int desm = n / 10;
+                int vnt = n % 10;
+                Console.WriteLine((vnt * 10 + desm));
+            }
+            else if(n < 1000)
+            {
+                int simt = n / 100;
+                int desm = (n % 100) / 10;
+                int vnt = n % 10;
+                Console.WriteLine((vnt * 100 + desm * 10 + simt));
+            }
+            else if(n < 10000)
+            {
+                int tukst = n / 1000;
+                int simt = (n % 1000) / 100;
+                int des = (n % 100) / 10;
+                int vnt = n % 10;
+                Console.WriteLine((vnt * 1000 + des * 100 + simt * 10 + tukst));
+            }
+            else
+            {
+                Console.WriteLine("Neteisingas skaicius");
+            }
+        }
+    }
+}
