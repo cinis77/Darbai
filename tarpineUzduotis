@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _31082018_tarpineUzduotis
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite kiek kepalu darbuotojas gali iskepti per valanda");
+            int kepataiPerH = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Iveskite kiek darbuotoju turi kelpykla");
+            int darbuotojuSkaicius = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Iveskite kieno kepalao savikaina");
+            double savikaina = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Iveskite vieno kepalo kaina");
+            double kaina = Convert.ToDouble(Console.ReadLine());
+            int darboValandos = 8;
+            int kepalaiPerDiena = darbuotojuSkaicius * kepataiPerH * darboValandos;
+            Console.WriteLine("Kepalai per diena: " + kepalaiPerDiena);
+            double kepaluSavikaina = kepalaiPerDiena * savikaina;
+            Console.WriteLine("Kepalu savikaina: " + kepaluSavikaina);
+            double pajamos = kepalaiPerDiena * kaina;
+            Console.WriteLine("Pajamos: " + pajamos);
+            double pelnas = pajamos - kepaluSavikaina;
+            Console.WriteLine("Pelnas : " + pelnas);
+        }
+    }
+}
