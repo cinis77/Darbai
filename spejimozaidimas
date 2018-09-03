@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _03092018_zaidimias
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sugalvokite skaiciu nuo 1 iki 3000");
+            Console.WriteLine("Paspauskite betkuri mygtuka pradeti zaidimui");
+            Console.ReadKey();
+            string atsakymas = null;
+            int min = 0;
+            int max = 3001;
+            while (atsakymas != "atspejai")
+            {
+                int spejimas = (min + max) / 2;
+                Console.WriteLine("Ar sugalvotas skaicius yra {0}?", spejimas);
+                Console.WriteLine("Iveskite daugiau, maziau, atspejai");
+                atsakymas = Console.ReadLine();
+                if (atsakymas == "maziau")
+                {
+                    max = spejimas;
+                }
+                else if(atsakymas == "daugiau")
+                {
+                    min = spejimas;
+                }
+                else if(atsakymas != "atspejai")
+                {
+                    Console.WriteLine("Netinkamai ivestas atsakymas");
+                }
+            }
+            Console.WriteLine("ATSPEJAU!!!!!!!!!!!!!!!!!");
+        }
+    }
+}
