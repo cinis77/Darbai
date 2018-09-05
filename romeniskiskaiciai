@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _04092018_romeniski
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Iveskite skaiciu");
+            int sk = Convert.ToInt32(Console.ReadLine());
+            int simt = sk / 100;
+            int desimt = (sk % 100) / 10;
+            int vnt = sk % 10;
+            Console.WriteLine(IsArabiskoIRomeniska(simt, "C", "D", "M")
+                + IsArabiskoIRomeniska(desimt, "X", "L", "C")
+                + IsArabiskoIRomeniska(vnt, "I", "V", "X"));
+        }
+
+        static string IsArabiskoIRomeniska(int sk, string vienas, string penki, string desimt)
+        {
+            if (sk == 9)
+            {
+                return vienas + desimt;
+            }
+            else if(sk == 4)
+            {
+                return vienas + penki;
+            }
+            else
+            {
+                string atsakymas = null;
+                if((sk / 5) == 1)
+                {
+                    atsakymas = penki;
+                }
+                for (int i = 0; i < (sk % 5); i++) 
+                {
+                    atsakymas += vienas;
+                }
+                return atsakymas;
+            }
+        }
+    }
+}
