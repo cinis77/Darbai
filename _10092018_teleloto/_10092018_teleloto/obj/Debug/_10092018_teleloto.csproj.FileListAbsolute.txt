@@ -1,0 +1,9 @@
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\bin\Debug\_10092018_teleloto.exe.config
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\bin\Debug\_10092018_teleloto.exe
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\bin\Debug\_10092018_teleloto.pdb
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\obj\Debug\_10092018_teleloto.csprojResolveAssemblyReference.cache
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\obj\Debug\_10092018_teleloto.Form1.resources
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\obj\Debug\_10092018_teleloto.Properties.Resources.resources
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\obj\Debug\_10092018_teleloto.csproj.GenerateResource.Cache
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\obj\Debug\_10092018_teleloto.exe
+c:\users\drentelis\documents\visual studio 2015\Projects\_10092018_teleloto\_10092018_teleloto\obj\Debug\_10092018_teleloto.pdb
