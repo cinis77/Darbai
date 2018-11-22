@@ -1,0 +1,10 @@
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\bin\Debug\Teleloto.exe.config
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\bin\Debug\Teleloto.exe
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\bin\Debug\Teleloto.pdb
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.Teleloto.resources
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.Properties.Resources.resources
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.csproj.GenerateResource.cache
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.exe
+C:\Users\User\mokymai\repos\Teleloto\Teleloto\obj\Debug\Teleloto.pdb
