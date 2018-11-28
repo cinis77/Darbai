@@ -1,0 +1,7 @@
+C:\Users\User\mokymai\repos\Taskas\Taskas\bin\Debug\Taskas.exe.config
+C:\Users\User\mokymai\repos\Taskas\Taskas\bin\Debug\Taskas.exe
+C:\Users\User\mokymai\repos\Taskas\Taskas\bin\Debug\Taskas.pdb
+C:\Users\User\mokymai\repos\Taskas\Taskas\obj\Debug\Taskas.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\Taskas\Taskas\obj\Debug\Taskas.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\Taskas\Taskas\obj\Debug\Taskas.exe
+C:\Users\User\mokymai\repos\Taskas\Taskas\obj\Debug\Taskas.pdb
