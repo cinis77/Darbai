@@ -1,0 +1,6 @@
+C:\Users\User\mokymai\repos\List\List\bin\Debug\List.exe.config
+C:\Users\User\mokymai\repos\List\List\bin\Debug\List.exe
+C:\Users\User\mokymai\repos\List\List\bin\Debug\List.pdb
+C:\Users\User\mokymai\repos\List\List\obj\Debug\Listas.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\List\List\obj\Debug\List.exe
+C:\Users\User\mokymai\repos\List\List\obj\Debug\List.pdb
