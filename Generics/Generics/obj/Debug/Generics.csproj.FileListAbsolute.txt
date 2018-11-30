@@ -1,0 +1,7 @@
+C:\Users\User\mokymai\repos\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Users\User\mokymai\repos\Generics\Generics\bin\Debug\Generics.exe
+C:\Users\User\mokymai\repos\Generics\Generics\bin\Debug\Generics.pdb
+C:\Users\User\mokymai\repos\Generics\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\Generics\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\Generics\Generics\obj\Debug\Generics.exe
+C:\Users\User\mokymai\repos\Generics\Generics\obj\Debug\Generics.pdb
