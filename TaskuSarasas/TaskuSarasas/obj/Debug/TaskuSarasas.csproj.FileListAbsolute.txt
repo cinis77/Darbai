@@ -1,0 +1,7 @@
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\bin\Debug\TaskuSarasas.exe.config
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\bin\Debug\TaskuSarasas.exe
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\bin\Debug\TaskuSarasas.pdb
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\obj\Debug\TaskuSarasas.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\obj\Debug\TaskuSarasas.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\obj\Debug\TaskuSarasas.exe
+C:\Users\User\mokymai\repos\TaskuSarasas\TaskuSarasas\obj\Debug\TaskuSarasas.pdb
