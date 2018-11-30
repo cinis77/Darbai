@@ -1,0 +1,10 @@
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\bin\Debug\MokiniuPazymiai.exe.config
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\bin\Debug\MokiniuPazymiai.exe
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\bin\Debug\MokiniuPazymiai.pdb
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.Form1.resources
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.Properties.Resources.resources
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.csproj.GenerateResource.cache
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.exe
+C:\Users\User\mokymai\repos\MokiniuPazymiai\MokiniuPazymiai\obj\Debug\MokiniuPazymiai.pdb
