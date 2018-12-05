@@ -1,0 +1,7 @@
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\bin\Debug\KoldunuCempionatas.exe.config
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\bin\Debug\KoldunuCempionatas.exe
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\bin\Debug\KoldunuCempionatas.pdb
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\obj\Debug\KoldunuCempionatas.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\obj\Debug\KoldunuCempionatas.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\obj\Debug\KoldunuCempionatas.exe
+C:\Users\User\mokymai\repos\KoldunuCempionatas\KoldunuCempionatas\obj\Debug\KoldunuCempionatas.pdb
