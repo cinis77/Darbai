@@ -1,0 +1,10 @@
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\bin\Debug\ÈxceptionForm.exe.config
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\bin\Debug\ÈxceptionForm.exe
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\bin\Debug\ÈxceptionForm.pdb
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.Form1.resources
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.Properties.Resources.resources
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.csproj.GenerateResource.cache
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.exe
+C:\Users\User\mokymai\repos\ÈxceptionForm\ÈxceptionForm\obj\Debug\ÈxceptionForm.pdb
