@@ -1,0 +1,9 @@
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\bin\Debug\Database1.mdf
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\bin\Debug\Database1_log.ldf
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\bin\Debug\Sandelos.exe.config
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\bin\Debug\Sandelos.exe
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\bin\Debug\Sandelos.pdb
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\obj\Debug\Sandelos.csprojAssemblyReference.cache
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\obj\Debug\Sandelos.csproj.CoreCompileInputs.cache
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\obj\Debug\Sandelos.exe
+C:\Users\User\mokymai\repos\Sandelos\Sandelos\obj\Debug\Sandelos.pdb
