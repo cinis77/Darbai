@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\bin\Debug\HTTPuzklausa.exe.config
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\bin\Debug\HTTPuzklausa.exe
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\bin\Debug\HTTPuzklausa.pdb
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\obj\Debug\HTTPuzklausa.csprojAssemblyReference.cache
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\obj\Debug\HTTPuzklausa.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\obj\Debug\HTTPuzklausa.exe
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\obj\Debug\HTTPuzklausa.pdb
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\HTTPuzklausa\HTTPuzklausa\obj\Debug\HTTPuzklausa.csproj.CopyComplete
